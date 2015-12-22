@@ -42,7 +42,7 @@ public class LoginPage {
 	}
 	
 	/**
-	 * To click Login to application site
+	 * To Login on application site
 	 */	
 	public void loginToApplication(String uName, String pass){
 		setUserName(uName);
