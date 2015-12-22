@@ -2,6 +2,9 @@ package Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
 
@@ -19,14 +22,18 @@ public class HomePage {
 	 * To click User Icon
 	 */	
 	public void clickOnUser(){
-		driver.findElement(By.xpath(clickUser)).click();
+		
+		WebElement element = (new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath(clickUser))));
+		element.click();
 	}
 
 	/**
 	 * To click Logout button
 	 */	
 	public void clickLogout(){
-		driver.findElement(By.xpath(logout)).click();
+		
+		WebElement element = (new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.xpath(logout))));
+		element.click();
 	}
 
 

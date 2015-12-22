@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15116" started-at="2015-12-21T13:40:08Z" finished-at="2015-12-21T13:40:23Z">
+  <suite name="Default suite" duration-ms="22287" started-at="2015-12-22T06:02:38Z" finished-at="2015-12-22T06:03:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15116" started-at="2015-12-21T13:40:08Z" finished-at="2015-12-21T13:40:23Z">
+    <test name="Default test" duration-ms="22287" started-at="2015-12-22T06:02:38Z" finished-at="2015-12-22T06:03:00Z">
       <class name="Tests.LoginTest">
-        <test-method status="PASS" signature="run()[pri:0, instance:Tests.LoginTest@5fbfe745]" name="run" is-config="true" duration-ms="7920" started-at="2015-12-21T19:10:08Z" finished-at="2015-12-21T19:10:16Z">
+        <test-method status="PASS" signature="run()[pri:0, instance:Tests.LoginTest@434ba039]" name="run" is-config="true" duration-ms="12685" started-at="2015-12-22T11:32:38Z" finished-at="2015-12-22T11:32:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:Tests.LoginTest@5fbfe745]" name="loginTest" duration-ms="5082" started-at="2015-12-21T19:10:16Z" finished-at="2015-12-21T19:10:21Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:Tests.LoginTest@434ba039]" name="loginTest" duration-ms="8715" started-at="2015-12-22T11:32:50Z" finished-at="2015-12-22T11:32:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:Tests.LoginTest@5fbfe745]" name="logout" duration-ms="1563" started-at="2015-12-21T19:10:21Z" finished-at="2015-12-21T19:10:22Z">
+        <test-method status="PASS" signature="logout()[pri:0, instance:Tests.LoginTest@434ba039]" name="logout" duration-ms="230" started-at="2015-12-22T11:32:59Z" finished-at="2015-12-22T11:32:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:Tests.LoginTest@5fbfe745]" name="afterClass" is-config="true" duration-ms="533" started-at="2015-12-21T19:10:22Z" finished-at="2015-12-21T19:10:23Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:Tests.LoginTest@434ba039]" name="close" is-config="true" duration-ms="636" started-at="2015-12-22T11:32:59Z" finished-at="2015-12-22T11:33:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
+        </test-method> <!-- close -->
       </class> <!-- Tests.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

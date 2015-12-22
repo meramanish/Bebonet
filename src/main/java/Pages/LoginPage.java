@@ -2,6 +2,9 @@ package Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage {
 
@@ -21,7 +24,8 @@ public class LoginPage {
 	 */	
 	public void setUserName(String uName){
 
-		driver.findElement(By.id(userName)).sendKeys(uName);
+		WebElement element = (new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.id(userName))));
+		element.sendKeys(uName);
 
 	}
 
@@ -30,7 +34,8 @@ public class LoginPage {
 	 */	
 	public void setPassword(String pass){
 
-		driver.findElement(By.id(password)).sendKeys(pass);
+		WebElement element = (new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.id(password))));
+		element.sendKeys(pass);
 
 	}
 
@@ -38,9 +43,11 @@ public class LoginPage {
 	 * To click Login button on site
 	 */	
 	public void clickLoginBtn() {
-		driver.findElement(By.id(loginButton)).click();
+		
+		WebElement element = (new WebDriverWait(driver, 10).until(ExpectedConditions.presenceOfElementLocated(By.id(loginButton))));
+		element.click();
 	}
-	
+
 	/**
 	 * To Login on application site
 	 */	
