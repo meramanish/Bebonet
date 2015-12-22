@@ -9,7 +9,7 @@ import Pages.LoginPage;
 public class LoginTest extends Driver{
 
 	String userName = "mailtomanish08@gmail.com";
-	String password = "c@stle321!";
+	String password = "***********";
 
 	LoginPage loginPage = new LoginPage(driver);
 	HomePage homePage = new HomePage(driver);
